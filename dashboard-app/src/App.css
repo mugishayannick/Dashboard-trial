@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aside-section {
+  width: var(--aside-section-width);
+  height: 100vh;
+  vertical-align: top;
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.right-section {
+  width: calc(100% - var(--aside-section-width));
+  height: 100%;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Course-list{
+    margin: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.CourseCard{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    overflow-x: scroll;
+    height: 220px;
+    animation: AnimateCard 2s forwards;
+    animation-delay: 0s;
+}
+.CourseCard::-webkit-scrollbar{
+    height: 5px;
+}
+.CourseCard::-webkit-scrollbar-thumb{
+    background-color: gray;
+    width: 1px;
+    border-radius: 30px;
+}
+.CourseCard::-webkit-scrollbar-track{
+    background-color: var(--aside-head-color);
+    width: 5px;
+    border-radius: 30px;
+}
+
+/* @keyframes AnimateCard {
+    from{
+        transform: translateY(-100%);
+
+    }
+    to {
+        transform: translateX(0%);
+    }
+} */

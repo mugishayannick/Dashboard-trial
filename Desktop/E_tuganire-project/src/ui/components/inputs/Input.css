@@ -1,0 +1,30 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px 10px;
+    gap: 1rem;
+    position: absolute;
+}
+
+.form-input>input {
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.form-input>label>input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#pet-select {
+    width: 100%;
+    padding: 10px 10px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+}

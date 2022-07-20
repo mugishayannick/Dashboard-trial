@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-header {
+    width:100%;
+    padding: 60px;
+}
+
+.up-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.up-header h1 {
+    font-size: 25px;
+}
+
+.down-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.down-header p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.button {
+    border-radius:10px;
+    padding: 5px 15px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid blue;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
